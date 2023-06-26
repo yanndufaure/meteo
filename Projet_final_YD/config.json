@@ -1,0 +1,35 @@
+{
+    "nom": "Projet_Final_YD",
+    "version": "0.1.0",
+    "ubuntu": "22.04",
+    "dependences": {
+        "python": "3.9.16",
+        "gcc": "11.3.0",
+        "jansson": "1.1.0",
+        "sqlite3": "3.37.2",
+        "unittest": "1.0",
+        "json": "1.0",
+        "time": "1.0", 
+        "requests": "2.28.2",
+        "CUnit": "2.1-3"
+    },
+    "API_Openweather": {
+        "api_url": "https://api.openweathermap.org/data/2.5/weather?",
+        "appid": "*******"
+    },
+    "BDD_nom": "meteo.sqlite3",
+    "chemin" : "/home/yannd/Documents/AUSY/Projet_final_YD/meteo.sqlite3",
+    "BDD_structure": {
+        "col_1": "id",
+        "col_2": "villes",
+        "col_3": "pays",
+        "col_4": "température",
+        "col_5": "température_min",
+        "col_6": "température_max",
+        "col_7": "weather",
+        "col_8": "date",
+        "col_9": "date.txt"
+    },
+    "villes": ["Toulouse", "Paris", "Marseille", "Lyon", "Brive-la-Gaillarde", "Bordeaux", "Strasbourg"],
+    "timer": 3600
+}
